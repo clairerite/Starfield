@@ -41,8 +41,6 @@ class Particle {
 
 // won't let me run if i don't comment it out
 //  class OddballParticle extends Particle {
-//    protected double myX, myY, mySpeed, myAngle;
-//    protected int myColor;
 //    public OddBallParticle() {
 //      myX = 300;
 //      myY = 300;
