@@ -41,7 +41,7 @@ class Particle {
 
 // won't let me run if i don't comment it out
 //  class OddballParticle extends Particle {
-//    public OddBallParticle() {
+//  OddBallParticle() {
 //      myX = 300;
 //      myY = 300;
 //      mySpeed = Math.random()*3;
