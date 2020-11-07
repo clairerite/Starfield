@@ -1,14 +1,11 @@
 Particle[] parts = new Particle[1000];
-
 boolean start = false;
-
 void setup() {
   size(600, 600);
   for (int i = 0; i < parts.length; i++)
   parts[i] = new Particle();
   parts[0] = new OddballParticle();
 }
-
 void draw() {
   background(0);
   for (int i = 0; i < parts.length; i++) {
@@ -16,7 +13,6 @@ void draw() {
     parts[i].move();
   }
 }
-
 class Particle {
   double myX, myY, mySpeed, myAngle;
   int myColor;
@@ -36,7 +32,6 @@ class Particle {
     myY = myY + Math.sin(myAngle*3)*mySpeed; 
     }
 }
-
   class OddballParticle extends Particle {
     OddballParticle () {
       myX = 300;
